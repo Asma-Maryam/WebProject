@@ -5,6 +5,8 @@ import Axios from "axios";
 import Cookie from "js-cookie";
 import { withRouter } from "react-router-dom";
 import queryString from "query-string";
+import "./cart.css";
+
 var id = "";
 var name = "";
 var category = "";
@@ -40,24 +42,21 @@ export default class cart extends Component {
     const products = items.map((u, i) => (
       <div class="col-lg-12 border col-md-12 col-sm-12 my-4">
         <div class="col-lg-12  py-4 my-4 row col-sm-12 col-md-12">
-          <div class="col-lg-4 col-sm-12 col-md-12">
-            <p class="text-left">
-              {" "}
-              <b>Name :</b> {u.name}
-            </p>
-            <p class="text-left">
+          <div class="col-lg-12 col-sm-12 col-md-12">
+            <p class="text-left p"> {u.name}</p>
+            <p class="text-left p">
               {" "}
               <b>Price :</b> ${u.price}
             </p>
-            <p class="text-left">
+            <p class="text-left p">
               {" "}
               <b>Category :</b> {u.category}
             </p>
-            <p class="text-left">
+            <p class="text-left p">
               {" "}
               <b>Quantity :</b> {u.quantity}
             </p>
-            <p class="text-left">
+            <p class="text-left p">
               {" "}
               <b>Sub Total:</b> ${u.subtotal}
             </p>
@@ -66,7 +65,7 @@ export default class cart extends Component {
               remove
             </button>
           </div>
-          <div class="col-lg-8 col-sm-12 col-md-12">
+          <div class="col-lg-8 col-sm-12 col-md-12 i">
             <img
               src={"http://localhost:3000/" + u.image}
               width="100%"
@@ -155,10 +154,7 @@ export default class cart extends Component {
         <div class="col-lg-12 my-4 border col-md-12 col-sm-12">
           <div class="col-lg-12  py-4 my-4 row col-sm-12 col-md-12">
             <div class="col-lg-4 col-sm-12 col-md-12">
-              <p class="text-left">
-                {" "}
-                <b>Name :</b> {u.name}
-              </p>
+              <p class="text-left"> {u.name}</p>
               <p class="text-left">
                 {" "}
                 <b>Price :</b> ${u.price}
@@ -184,7 +180,7 @@ export default class cart extends Component {
               <img
                 src={"http://localhost:3000/" + u.image}
                 width="100%"
-                height="200"
+                height="auto"
               ></img>
               <p>
                 {" "}
@@ -202,7 +198,7 @@ export default class cart extends Component {
   render() {
     return (
       <div class="card-header px-4">
-        <h4>
+        <h4 class="p">
           <b>CART : {cart_count}</b>
         </h4>
         <br></br>

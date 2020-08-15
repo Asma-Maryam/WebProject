@@ -1,8 +1,8 @@
 require("./config/config");
 require("./models/db");
-const stripe = require("stripe")(
-  "sk_test_51HEesoLqC7uthaIRnCUAKXA0pBMKWJs30mvafI5gnDU1aAtOtMsRSXWSZZsOOu8OvbtnbE1SsLMKb2QGRuZnqRNB007YlN7pwz"
-);
+// const stripe = require("stripe")(
+//   "sk_test_51HEesoLqC7uthaIRnCUAKXA0pBMKWJs30mvafI5gnDU1aAtOtMsRSXWSZZsOOu8OvbtnbE1SsLMKb2QGRuZnqRNB007YlN7pwz"
+// );
 
 const express = require("express");
 var multer = require("multer");
