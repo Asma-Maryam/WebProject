@@ -1,0 +1,211 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.scroll-v {
+  height: 80vh;
+  overflow: auto;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: royalblue;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+p,
+.picname {
+  word-break: break-all;
+  text-align: center;
+  overflow: hidden;
+}
+.space-between {
+  justify-content: space-between;
+}
+.picname {
+  max-height: 30px;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.slide img {
+  margin: auto;
+  height: 20%;
+  width: 100%;
+}
+
+.AK {
+  font-size: 5vw !important;
+  font-family: Lovely Coffee;
+  text-shadow: 2px 2px 5px wheat;
+  color: #1b0000;
+}
+
+.SISU a {
+  font-size: 3vw !important;
+  font-family: Bottle party DEMO;
+  text-shadow: 2px 2px 5px wheat;
+  color: #1b0000;
+  margin-left: 100px;
+}
+
+.SISU li {
+  list-style: none;
+}
+
+.HC a {
+  font-size: 3vw !important;
+  font-family: Bottle party DEMO;
+  text-shadow: 2px 2px 5px wheat;
+  color: #1b0000;
+  margin-right: 100px;
+}
+
+.NAV {
+  background-image: linear-gradient(
+    to right,
+    #ff867c,
+    #ef5350,
+    #ef5350,
+    #ff867c
+  );
+  box-shadow: 5px 5px 5px black;
+}
+
+.Log li {
+  list-style: none;
+}
+
+.Log a {
+  font-size: 2vw !important;
+  font-family: Bottle party DEMO;
+  text-shadow: 2px 2px 5px wheat;
+  color: #1b0000;
+  margin-left: 100px;
+}
+
+.container {
+  min-width: 100%;
+  border: none;
+  /* background-image: linear-gradient(
+    to right,
+    #eeeeee,
+    #e0e0e0,
+    #bdbdbd,
+    #eeeeee,
+    #e0e0e0
+  ); */
+  background-color: #212121;
+}
+.product-horizontal {
+  display: flex;
+  overflow: auto;
+}
+.Row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.Column {
+  flex: 1 1 0px;
+  border: 1px solid black;
+}
+
+.cu img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background-color: black;
+  box-shadow: 5px 5px 10px black;
+}
+
+.cu {
+  margin-top: 150px;
+  background-image: linear-gradient(
+    to right,
+    #fce4ec,
+    #ffa4a2,
+    #ffa4a2,
+    #fce4ec
+  );
+  font-family: forte;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 2px 2px 5px wheat;
+  color: #1b0000;
+  box-shadow: 5px 5px 10px black;
+  width: auto;
+}
+
+.ft h1 {
+  display: inline;
+  font-family: lovely coffee;
+  text-shadow: 2px 2px 5px #1b0000;
+  color: wheat;
+  font-size: 80px;
+}
+.ft img {
+  /* inline-size: 150px; */
+  width: 150px;
+}
+
+.ft {
+  background-color: rgba(0, 0, 0, 0.418);
+  margin-top: 30px;
+  box-shadow: 5px 5px 10px black;
+}
+
+.ft p {
+  display: inline;
+  font-family: forte;
+  color: wheat;
+  font-size: 30px;
+  text-shadow: 2px 2px 5px #1b0000;
+}

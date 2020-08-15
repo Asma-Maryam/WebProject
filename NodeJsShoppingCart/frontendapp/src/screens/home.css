@@ -1,0 +1,116 @@
+.p {
+  font-family: forte;
+  color: wheat;
+  font-size: 2vw !important;
+}
+
+#products {
+  box-shadow: 5px 5px 5px black;
+}
+
+.dis {
+  margin-top: 2px;
+  font-size: 2vw !important;
+  font-family: Bottle party DEMO;
+
+  color: whitesmoke;
+}
+
+.cart-btn {
+  box-shadow: 10px 10px 10px black;
+  color: #1b0000;
+  font-family: forte;
+  font-size: 1.5vw !important;
+  background-image: linear-gradient(
+    to right,
+    #ff867c,
+    #ef5350,
+    #ef5350,
+    #ff867c
+  );
+
+  text-shadow: 2px 2px 5px wheat;
+}
+
+.card {
+  flex-direction: column;
+  border: none;
+  padding: 16px;
+
+  background-color: transparent;
+}
+.MuiCardActions-root {
+  justify-content: center;
+}
+.MuiCard-root {
+  margin: 25px;
+}
+
+.cc {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+.rc {
+  margin: 0 -5px;
+}
+
+.rc:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.cm {
+  display: "flex";
+  flex-wrap: "wrap";
+}
+
+.dis img {
+  margin-top: 5px;
+  box-shadow: 5px 5px 5px black;
+}
+
+#demo {
+  margin-top: 1px;
+  margin-bottom: 25px;
+
+  box-shadow: -20px -20px 20px black;
+}
+
+.ts {
+  /* background-image: linear-gradient(
+      to right,
+      #fce4ec,
+      #ffa4a2,
+      #ffa4a2,
+      #fce4ec
+    ); */
+  font-family: forte;
+  /* text-align: center; */
+  text-shadow: 2px 2px 5px wheat;
+  color: white;
+
+  margin-top: 10px;
+  /* box-shadow: 5px 5px 10px black; */
+}
+
+.ts h1 {
+  display: inline;
+}
+
+.ts img {
+  width: 100px;
+}
+
+.z {
+  border: none;
+}
+
+.bg {
+  background-color: black;
+  border: solid black;
+  margin-right: 20px;
+  box-shadow: 10px 10px 10px black;
+}
